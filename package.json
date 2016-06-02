@@ -4,9 +4,12 @@
   "description": "Extension for require.resolve which will resolve directories as well as files",
   "main": "lib/index.js",
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "ava": "0.15.1",
+    "eslint": "2.11.1"
+  },
   "scripts": {
-    "test": "mocha"
+    "test": "ava tests/"
   },
   "keywords": [
     "require",
