@@ -1,0 +1,18 @@
+{
+  "name": "dir-resolve",
+  "version": "1.0.0",
+  "description": "Extension for require.resolve which will resolve directories as well as files",
+  "main": "lib/index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "require",
+    "resolve",
+    "directory"
+  ],
+  "author": "Matt Winchester",
+  "license": "MIT"
+}
