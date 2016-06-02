@@ -1,8 +1,9 @@
 dir-resolve
 ===========
 
-## Purpose
+[![Build Status](https://travis-ci.org/mwinche/dir-resolve.svg?branch=master)](https://travis-ci.org/mwinche/dir-resolve)
 
+## Purpose
 
 An extension to `require.resolve()`. Traditionally, `require.resolve()` calls
 only work if you're working with files, as opposed to directories. For example:
