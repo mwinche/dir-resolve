@@ -33,8 +33,8 @@ test('dir-resolve should attempt to find directories', function(t){
     if(path === 'lib'){
       return '/path/to/lib';
     }
-    else if(path === 'lib/package'){
-      return '/path/to/lib/package';
+    else if(path === 'lib/package.json'){
+      return '/path/to/lib/package.json';
     }
 
     throw 'Not found';
@@ -53,8 +53,8 @@ test('dir-resolve should work with scoped modules', function(t){
     if(path === '@angular/core'){
       return '/path/to/@angular/core';
     }
-    else if(path === '@angular/core/package'){
-      return '/path/to/@angular/core/package';
+    else if(path === '@angular/core/package.json'){
+      return '/path/to/@angular/core/package.json';
     }
 
     throw 'Not found';
