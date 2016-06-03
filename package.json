@@ -1,6 +1,6 @@
 {
   "name": "dir-resolve",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Extension for require.resolve which will resolve directories as well as files",
   "main": "lib/index.js",
   "repository": {
