@@ -10,7 +10,7 @@
   "dependencies": {},
   "devDependencies": {
     "ava": "0.15.1",
-    "eslint": "2.11.1"
+    "eslint": "6.6.0"
   },
   "scripts": {
     "test": "ava tests/"
